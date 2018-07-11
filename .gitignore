@@ -21,3 +21,10 @@ exp-referit/referit-dataset/*
 *-Copy*.ipynb
 
 checkpoint
+.vscode/settings.json
+.vscode/settings.json
+demo/prediction.png
+util/nms.o
+util/nms.c
+util/nms.so
+util/build/temp.linux-x86_64-3.6/nms.o

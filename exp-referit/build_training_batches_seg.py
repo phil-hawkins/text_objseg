@@ -36,7 +36,7 @@ input_W = 512; featmap_W = (input_W // 32)
 
 query_dict = json.load(open(query_file))
 imsize_dict = json.load(open(imsize_file))
-imcrop_list = query_dict.keys()
+imcrop_list = list(query_dict.keys())
 vocab_dict = text_processing.load_vocab_dict_from_file(vocab_file)
 
 ################################################################################
